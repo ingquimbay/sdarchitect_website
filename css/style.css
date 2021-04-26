@@ -63,6 +63,7 @@ section.home {
     padding: 10px 30px;
     margin: 20px 0;
     border: 0;
+    font-size: larger;
 }
 
 .btn:hover {
@@ -199,6 +200,41 @@ section.home {
     max-width: 100px;
 }
 
+/* CONTACT */
+.contact-page {
+    margin-top: 150px;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    width: 350px;
+    padding: 60px 40px 20px;
+}
+
+.contact-info .info-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.contact-info .info-box .details h4 {
+    color: var(--secondary-color);
+}
+
+.contact-info .info-box .details p,
+.contact-info .info-box .details a {
+    color: #111;
+    text-decoration: none;
+}
+
 @media (max-width: 1023px) {
     .home-img {
         display: none;
@@ -232,6 +268,10 @@ section.home {
 
     .contact {
         flex-direction: column;
+    }
+
+    .contact-map {
+        display: none;
     }
 
     .contact-info {

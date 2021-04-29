@@ -154,6 +154,13 @@ section.home {
 }
 
 /* HOMEPAGE */
+.home {
+    /* background-image: url("/img/house.jpeg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .home-content {
     position: absolute;
     z-index: 10;
@@ -200,8 +207,34 @@ section.home {
     max-width: 100px;
 }
 
+/* WORK */
+.work-page {
+    max-width: 1280px;
+    margin-top: 200px;
+}
+
+.work-profile {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.work-image {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.work-exp {
+    width: 800px;
+    padding: 60px 40px 20px;
+}
+
 /* CONTACT */
 .contact-page {
+    max-width: 1280px;
     margin-top: 150px;
 }
 
